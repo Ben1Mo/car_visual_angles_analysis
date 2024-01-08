@@ -13,3 +13,5 @@ task_description.pdf
 
 # large directories
 data/
+lightning_logs/
+tb_logs/
