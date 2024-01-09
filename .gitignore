@@ -1,0 +1,17 @@
+# specific files
+task_description.pdf
+
+# jupyter notebook files
+*.ipynb_checkpoints/
+
+# large files
+*/*.zip
+*/*.png
+*/*.jpg
+*/*.jpeg
+*/*.csv
+
+# large directories
+data/
+lightning_logs/
+tb_logs/
