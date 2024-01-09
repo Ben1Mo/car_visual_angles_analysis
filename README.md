@@ -33,7 +33,7 @@ Thread(s) per core:  2
 NUMA node(s):        1
 ```
 
-# Pre-trained weights
+## Pre-trained weights
 
 This [link](https://we.tl/t-sMY5nWfbJc) includes the pretrained weights that are used to run predictions and evaluate the model on the test set.\
 It is not that convenient to directly push a 129 MB file to GitHub (since it is not exactly the right tool for such operations), therefore, an alternative would be to use [WeTransfer](https://wetransfer.com/) to upload the file and attach it in the README.
