@@ -2,7 +2,7 @@
 The material for solving the code challenge use case.
 
 ## Approach description
-In order to answer the coding challenge, a simple vanilla ResNET18 architecture is implemented, trained and tested.\
+A simple vanilla ResNET18 architecture is implemented, trained and tested in order to predict the values of two continuous variables related to the visual possiblity of a car angles.\
 The two continuous variables: `perspective_score_hood` and `perspective_score_backdoor_left` need to be predicted.\
 The problem at hand can be described as a Multi-Outcome regression task, where we train our model to learn how to predict, in this case, two continuous variables.\
 The model is evaluated based on a randomly selected set of images (400) and using a term including the Mean Absolute Error (MAE) to calculate an accuracy score of how much of the predictions are close enough to the actual values (targets).
