@@ -1,5 +1,5 @@
-# code_challenge
-The material for solving the code challenge use case.
+# Car Visual Angle Prediction
+The material for solving the use case.
 
 ## Approach description
 A simple vanilla ResNET18 architecture is implemented, trained and tested in order to predict the values of two continuous variables related to the visual possiblity of a car angles.\
